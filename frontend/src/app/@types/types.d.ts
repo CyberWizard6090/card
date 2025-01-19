@@ -1,0 +1,9 @@
+declare module "babel__core";
+declare module "babel__traverse";
+declare module "graceful-fs";
+declare module "hoist-non-react-statics";
+declare module "html-minifier-terser";
+declare module "istanbul-lib-coverage";
+declare module "istanbul-reports";
+declare module "prop-types";
+declare module "stack-utils";

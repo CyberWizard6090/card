@@ -1,0 +1,58 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+ "options": {
+    "allowedHosts": ["localhost", ".localhost"],
+    "proxy": "https://localhost:5000/"
+  },
+  "dependencies": {
+    "cra-template-typescript": "1.2.0",
+    "react": "^18.2.0",
+    "react-collapse": "^5.1.1",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__traverse": "^7.20.6",
+    "@types/graceful-fs": "^4.1.9",
+    "@types/hoist-non-react-statics": "^3.3.6",
+    "@types/html-minifier-terser": "^7.0.2",
+    "@types/istanbul-lib-coverage": "^2.0.6",
+    "@types/istanbul-reports": "^3.0.4",
+    "@types/node": "^22.10.7",
+    "@types/prop-types": "^15.7.14",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@types/stack-utils": "^2.0.3",
+    "react-scripts": "^5.0.1",
+    "sass": "^1.83.4",
+    "sass-loader": "^16.0.4",
+    "typescript": "^5.7.3"
+  }
+}

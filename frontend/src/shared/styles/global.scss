@@ -1,0 +1,65 @@
+/* styles.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  /* Цвета для кнопок */
+  --accent-color: #150791; /* Фон кнопки */
+  --button-text: #e4dbdb; /* Текст на кнопке */
+  --accent-color-hover: #5b7fe0; /* Фон кнопки при наведении */
+
+  --radius-none: 0px; /* Без скругления */
+  --radius-sm: 4px; /* Маленький радиус */
+  --radius-md: 8px; /* Средний радиус */
+  --radius-lg: 16px; /* Большой радиус */
+  --radius-xl: 25px; /* Очень большой радиус */
+  --radius-circle: 9999px; /* Полностью круглая форма */
+
+  --spacing-xxs: 4px; /* Очень маленький отступ */
+  --spacing-xs: 8px; /* Маленький отступ */
+  --spacing-s: 12px; /* Небольшой отступ */
+  --spacing-m: 16px; /* Средний отступ */
+  --spacing-l: 32px; /* Большой отступ */
+  --spacing-xl: 48px; /* Очень большой отступ */
+  --spacing-xxl: 64px; /* Максимальный отступ */
+
+  --font-size-small: 0.75rem; /* 12px */
+  --font-size-medium: 1rem; /* 16px */
+  --font-size-large: 1.25rem; /* 20px */
+  --font-size-xl: 1.5rem; /* 24px */
+  --font-size-xxl: 2rem; /* 32px */
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.root {
+  height: 100vh;
+}
+.CardsPage {
+  /* Rectangle 1 */
+
+  background-image: url(./../assets/svg/1.svg);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+
+  /* width: 100vw;*/
+  height: 100vh;
+}
+
+.R {
+  position: absolute;
+  width: 934.81px;
+  height: 300px;
+  left: 627px;
+  top: 132.3px;
+
+  background: #7075f1;
+  border-radius: 300px;
+  transform: rotate(30deg);
+  z-index: 0;
+}

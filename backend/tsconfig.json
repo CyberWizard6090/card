@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",                                  
+    "paths": {
+      "*": ["node_modules/*"],
+      "services/*": ["src/services/*"],
+      "utils/*": ["src/utils/*"],
+      "config/*": ["src/config/*"],
+      "models/*": ["src/models/*"],
+      "controllers/*": ["src/controllers/*"],
+      "routes/*": ["src/routes/*"]
+    },
+    "rootDir": "./src", 
+    "outDir": "./dist",
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",     
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react-jsx",
+    "typeRoots": ["./node_modules/@types"],
+                            
+  },
+ "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

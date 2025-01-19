@@ -1,0 +1,39 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-s);
+  font-size: var(--font-size-small);
+  transition: all 0.15s linear;
+  line-height: 1;
+  white-space: nowrap;
+  border-radius: var(--radius-md);
+  // height: 34px;
+
+  svg {
+    width: 20px;
+    height: 20px;
+    // fill: var(--button-text);
+
+    margin-right: var(--spacing-xs);
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  // &:hover svg {
+  //   fill: var(--button-text);
+  // }
+
+
+    color: var(--button-text);
+    border: none;
+    background-color: var(--accent-color);
+
+    &:hover {
+      background-color: var(--accent-color-hover);
+    }
+  
+
+}

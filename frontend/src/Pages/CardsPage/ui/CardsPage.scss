@@ -1,0 +1,13 @@
+.CardsPage{
+    overflow-y: auto;
+    &__header{
+        display: flex;
+        position: sticky;
+        top: 0;
+        background-color: rgba(255, 0, 0, 0);
+        z-index: 99;
+        gap: var(--spacing-m);
+        padding:var(--spacing-m);
+        backdrop-filter: blur(10px);
+    }
+}
