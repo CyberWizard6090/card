@@ -1,4 +1,4 @@
-Fullstack Приложение с Backend (Node.js + Express) и Frontend (React) + PostgreSQL
+#Fullstack Приложение с Backend (Node.js + Express) и Frontend (React) + PostgreSQL
 Описание
 Этот проект включает:
 
@@ -31,21 +31,21 @@ project/
 
 Переменные окружения
 Создайте файл .env в корне проекта с содержимым:
-
+```
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=1234
 POSTGRES_DB=card
-
+```
 
  Создайте файл .env backend в папке backend:
-
+```
 DB_USER=postgres
 DB_HOST=db
 DB_NAME=card
 DB_PASSWORD=1234
 DB_PORT=5432
 PORT=5000
-
+```
 Шаги для запуска
 1. Клонирование репозитория
 Склонируйте репозиторий проекта:
