@@ -1,4 +1,4 @@
-#Fullstack Приложение с Backend (Node.js + Express) и Frontend (React) + PostgreSQL
+##Fullstack Приложение с Backend (Node.js + Express) и Frontend (React) + PostgreSQL
 Описание
 Этот проект включает:
 
@@ -46,10 +46,10 @@ DB_PASSWORD=1234
 DB_PORT=5432
 PORT=5000
 ```
+ ```markdown
 Шаги для запуска
 1. Клонирование репозитория
 Склонируйте репозиторий проекта:
-
 git clone https://github.com/CyberWizard6090/card.git
 cd project
 2. Сборка и запуск с Docker Compose
@@ -59,3 +59,4 @@ cd project
 
 Frontend: http://localhost:3000
 Backend: http://localhost:5000
+```
